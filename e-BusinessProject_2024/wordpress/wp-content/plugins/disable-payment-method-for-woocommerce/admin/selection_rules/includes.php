@@ -1,0 +1,25 @@
+<?php
+define("PI_DPMW_SELECTION_RULE_SLUG", 'dpmw');
+require_once 'pisol_selection_rule_main.php';
+require_once 'pisol_method.php';
+require_once 'rules/country.php';
+require_once 'rules/product.php';
+require_once 'rules/product_tag.php';
+require_once 'rules/shipping_method.php';
+require_once 'rules/category_product.php';
+require_once 'rules/cart-subtotal-before-discount.php';
+require_once 'rules/zone.php';
+require_once 'rules/day_of_week.php';
+require_once 'rules/postcode.php';
+require_once 'rules/state.php';
+require_once 'rules/quantity.php';
+require_once 'rules/city.php';
+require_once 'rules/user.php';
+require_once 'rules/user_role.php';
+require_once 'rules/coupon.php';
+require_once 'rules/shipping_class.php';
+require_once 'rules/stock-status.php';
+require_once 'rules/diff_shipping_add.php';
+require_once 'rules/between-time.php';
+require_once 'rules/between-date.php';
+require_once 'rules/dates.php';

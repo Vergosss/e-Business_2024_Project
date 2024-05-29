@@ -1,0 +1,263 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Disable payment method for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-30 06:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: disable-payment-method-for-woocommerce"
+
+#: admin/partials/list-disable-payment-rules.php:27
+#: advance-fees/templates/order/pending-payment-summary.php:33
+msgid "Actions"
+msgstr ""
+
+#: admin/selection_rules/pisol_rule_form.php:13
+msgid "Add Condition"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:4
+msgid "Add disable payment method rule"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:8
+msgid "Add new payment method rule"
+msgstr ""
+
+#: advance-fees/checkout.php:588
+msgctxt "Admin menu name"
+msgid "Pending Payments"
+msgstr ""
+
+#: advance-fees/templates/order/pending-payment-summary.php:32
+msgid "Amount"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:50
+msgid "Apply fees on this payment methods"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:82
+msgid "Below conditions determine when to disable payment methods"
+msgstr ""
+
+#: admin/selection_rules/rules/product.php:24
+msgid "Cart has Product"
+msgstr ""
+
+#: admin/selection_rules/rules/category_product.php:28
+msgid "Cart has product of category"
+msgstr ""
+
+#: admin/selection_rules/rules/cart-subtotal-before-discount.php:25
+msgid "Cart Subtotal (Before discount)"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:71
+msgid "Cart Subtotal Percentage"
+msgstr ""
+
+#: admin/selection_rules/rules/country.php:28
+msgid "Country"
+msgstr ""
+
+#: advance-fees/checkout.php:528 advance-fees/pending-table.php:93
+msgid "Date"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:56
+msgid "Delete disabling rule"
+msgstr ""
+
+#: advance-fees/pending-table.php:92
+msgid "Deposit ID"
+msgstr ""
+
+#: advance-fees/checkout.php:485
+msgid "Deposit paid"
+msgstr ""
+
+#. Description of the plugin
+msgid "Disable any payment method based on various conditions"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:30
+#: admin/partials/list-disable-payment-rules.php:36
+msgid "Disable payment method"
+msgstr ""
+
+#. Name of the plugin
+msgid "Disable payment method for WooCommerce"
+msgstr ""
+
+#: disable-payment-method-for-woocommerce.php:40
+msgid ""
+"Disable payment method for WooCommerce plugin need WooCommerce active, so "
+"activate WooCommerce in your website"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:49
+msgid "Disable this payment methods"
+msgstr ""
+
+#: advance-fees/checkout.php:493
+msgid "Due Amount"
+msgstr ""
+
+#: advance-fees/checkout.php:542
+msgid "Due Payment"
+msgstr ""
+
+#: advance-fees/checkout.php:365
+msgid "Due Payment for order #"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:55
+msgid "Edit disabling rule"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:8
+msgid "Edit rule"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:66
+msgid "Extra Fees"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:70
+msgid "Fixed fees"
+msgstr ""
+
+#. %s: Customer first name
+#: advance-fees/templates/order/pending-payment-summary.php:64
+msgid "Make Payment "
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:38
+msgid "Name the disable payment method rule"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:39
+msgid "Name the payment method fees"
+msgstr ""
+
+#: advance-fees/checkout.php:568
+msgid "Not a partially paid order"
+msgstr ""
+
+#: advance-fees/checkout.php:526
+msgid "Order Number"
+msgstr ""
+
+#: advance-fees/checkout.php:623 advance-fees/checkout.php:636
+msgctxt "Order status"
+msgid "Partial Paid"
+msgstr ""
+
+#: advance-fees/pending-table.php:96
+msgid "Parent Order"
+msgstr ""
+
+#. %s: number of orders
+#: advance-fees/checkout.php:629
+#, php-format
+msgid "Partial Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Partial Paid <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: advance-fees/checkout.php:529
+msgid "Payment"
+msgstr ""
+
+#: advance-fees/checkout.php:540
+msgid "Payment done"
+msgstr ""
+
+#: advance-fees/templates/order/pending-payment-summary.php:30
+msgid "Payment ID"
+msgstr ""
+
+#: admin/class-disable-payment-method-for-woocommerce-menu.php:18
+#: admin/class-disable-payment-method-for-woocommerce-menu.php:19
+msgid "Payment Method"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:31
+msgid "Payment method fees"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:24
+msgid "Payment method rule"
+msgstr ""
+
+#: advance-fees/checkout.php:508 advance-fees/checkout.php:587
+msgid "Pending Payments"
+msgstr ""
+
+#: advance-fees/templates/order/pending-payment-summary.php:23
+msgid "Pending payments summary"
+msgstr ""
+
+#. Author of the plugin
+msgid "PI Websolution"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "piwebsolution.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "piwebsolution.com/disable-payment-method-for-woocommerce"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:26
+msgid "Rule active"
+msgstr ""
+
+#: admin/partials/add-disable-rule.php:26
+msgid "Rule type"
+msgstr ""
+
+#: admin/class-add-disable-payment-rule.php:55
+msgid "Rule you are trying to edit does not exist"
+msgstr ""
+
+#: disable-payment-method-for-woocommerce.php:98
+msgid "Settings"
+msgstr ""
+
+#: advance-fees/checkout.php:530 advance-fees/pending-table.php:94
+#: admin/partials/add-disable-rule.php:14
+#: advance-fees/templates/order/pending-payment-summary.php:31
+msgid "Status"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:63
+msgid "There are no payment method rules created yet"
+msgstr ""
+
+#: advance-fees/checkout.php:590
+msgid "This is where store pending Payments are stored."
+msgstr ""
+
+#: advance-fees/checkout.php:531 advance-fees/pending-table.php:95
+msgid "Total"
+msgstr ""
+
+#: admin/partials/list-disable-payment-rules.php:25
+msgid "Type"
+msgstr ""
+
+#: admin/selection_rules/rules/zone.php:28
+msgid "Zones"
+msgstr ""

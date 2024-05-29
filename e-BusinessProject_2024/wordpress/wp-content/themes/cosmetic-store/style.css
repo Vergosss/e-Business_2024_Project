@@ -1,0 +1,1214 @@
+/*
+Theme Name: Cosmetic Store
+Description: Cosmetic Store is a brilliant WordPress theme suitable for beauty products, beauty store, Spa products online, salon equipments, fragrance products, beauty salon, cosmetic treatment centres, cosmetic clinic, cosmetic surgery, nutritionist, healthy lifestyle blog, makeup artist, fashion store, and such related websites. It comes bundled with three premium plugins for free, and it is compatible with Elementor Page Builder. Build any stunning cosmetics related website the smooth way with this amazing theme. It is cross-browser compatible and implemented on bootstrap framework that makes it really handy to use. It comes with powerful admin interface. The theme is mobile-friendly that easily fits in any device screen size. Also, it is SEO-friendly that takes care of your website’s search engine ranking. It is highly customizable with no coding knowledge required. You can import demo content with one-click demo import option. It is fully compatible with Elementor page builder. You can add shortcodes from available ones. You can add social media pages using widgets. It is fully responsive that fits perfectly in all devices, be it desktop, mobile or tabs. It comes with clean, secure and optimized codes. Also, the theme loads faster as the pages are optimized for speed.
+Author: misbahwp
+Theme URI: https://www.misbahwp.com/products/free-cosmetic-wordpress-theme/
+Author URI: https://www.misbahwp.com/
+Version: 4.1
+Requires PHP: 5.6
+Tested up to: 6.4
+Requires at least: 5.0
+Tags: photography, portfolio, e-commerce, wide-blocks, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, flexible-header, featured-image-header, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments
+Text Domain: cosmetic-store
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Cosmetic Store WordPress Theme has been created by misbahwp(misbahwp.com), 2022.
+Cosmetic Store WordPress Theme is released under the terms of GNU GPL
+*/
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+  color: #a3aab4;
+  margin:0;
+  background: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	color: #0d0d0d;
+}
+a {
+  color:#0d0d0d;
+  -webkit-transition: color .1s linear;
+  -moz-transition: color .1s linear;
+  -o-transition: color .1s linear;
+  transition: color .1s linear;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color:#5fcb91;
+  text-decoration: none;
+}
+
+.alignwide {
+  margin-left  : -80px;
+  margin-right : -30px;
+}
+.alignfull {
+  margin-left  : calc( -100vw / 2 + 100% / 2 );
+  margin-right : calc( -100vw / 2 + 100% / 2 );
+  max-width    : 100vw;
+}
+
+.alignfull { 
+ margin-left: -48px;
+ width: calc(100% + 64px) !important;
+ max-width : 100vw;
+}
+.alignfull img {
+  width: 100vw;
+}
+
+.post-single a, .page-single a,.sidebar-area .textwidget a,.comment-content a,.woocommerce-product-details__short-description a,#tab-description a {
+  text-decoration: underline;
+}
+
+/* ===============================================
+   Post Format
+   ============================================= */
+
+	.entry-video iframe {
+	    width: 100%;
+	}
+
+/* ===============================================
+   HEADER BOX
+   ============================================= */
+
+.top-info-box a,.social-links i,.social-links span,.features p {
+  color: #fff;
+  font-size: 15px;
+}
+.top-header p,.sign-button a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.top-header p i,.social-links i:hover,.top-info-box a:hover{
+	color: #5fcb91;
+}
+.top-header{
+	background: #0d0d0d;
+}
+a.myacunt-url {
+  background: #232121;
+  padding: 8px 15px;
+  color: #fff !important;
+  font-size: 15px;
+  display: inline-block;
+}
+a.myacunt-url:hover{
+	background: #5fcb91;
+}
+.features {
+  background: #5fcb91;
+}
+
+/* ===============================================
+   LOGO BOX
+   ============================================= */
+img.custom-logo {
+  height: 70px;
+  width: 70px;
+}
+.logo a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 35px;
+  text-decoration: none;
+  -webkit-transition: color .1s linear;
+  -moz-transition: color .1s linear;
+  -o-transition: color .1s linear;
+  transition: color .1s linear;
+  font-weight: 600;
+}
+.logo span {
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  padding: 0 30px;
+}
+.logo-image {
+  float: left;
+}
+
+/* ===============================================
+   PRODUCT SEACRH AND PRODUCT DROPDOWN
+   ============================================= */
+
+.header .product-btn{
+	padding: 10px 15px;
+	background: transparent;
+	color: #8d8ca4;
+	border: 1px solid #ededed;
+	width: 100%;
+	text-align: left;
+}
+.header .product-cat{
+	background: #f5f5f5;
+	color: #8d8ca4;
+	border: 1px solid #ededed;
+	list-style: none;
+	position: absolute;
+	width: 93%;
+	z-index: 999;
+	text-align: left;
+}
+.header .product-btn i,.header li.drp_dwn_menu i {
+  text-align: right;
+  float: right;
+  margin: 3px 0;
+}
+.header li.drp_dwn_menu {
+  border-bottom: 1px solid #ededed;
+  padding: 14px;
+}
+.header li.drp_dwn_menu:hover{
+	background: #5fcb91;
+}
+.header li.drp_dwn_menu:hover a,.header li.drp_dwn_menu:hover i{
+	color: #fff;
+}
+.header li.drp_dwn_menu a{
+	color: #8d8ca4;
+}
+.header input.search-field {
+  padding: 10px 15px;
+  color: #8d8ca4;
+  border: 1px solid #ededed;
+  float: left;
+  width: 83%;
+}
+.header input.search-field::placeholder{
+	color: #8d8ca4;
+}
+.header button.search-button{
+	padding: 10px 15px;
+	background: transparent;
+	color: #8d8ca4;
+	border: 1px solid #ededed;
+	cursor: pointer;
+}
+
+/* ===============================================
+   MENU BOX
+   ============================================= */
+
+#main-menu {
+	display:block;
+	position:relative;
+	float:left;
+	margin:0 auto;
+	width:100%
+}
+#main-menu ul {
+	margin:0;
+  padding: 0;
+	display:block;
+}
+#main-menu ul li {
+	position:relative;
+	display:block;
+	float:left;
+	text-align:left;
+}
+#main-menu ul li a {
+	text-decoration:none;
+	display:block;
+	z-index:1;
+	padding: 0px 10px;
+	margin:0;
+	color: #8d8ca4;
+	font-size: 13px;
+  font-weight: 500;
+	-webkit-transition: color .1s linear, background-color .1s linear;
+	-moz-transition: color .1s linear, background-color .1s linear;
+	-o-transition: color .1s linear, background-color .1s linear;
+	transition: color .1s linear, background-color .1s linear;
+	position:relative;
+	line-height:53px;
+}
+#main-menu a:hover,
+#main-menu ul li a:hover,
+#main-menu li:hover > a,
+#main-menu a:focus,
+#main-menu ul li a:focus,
+#main-menu li.focus > a,
+#main-menu li:focus > a,
+#main-menu ul li.current-menu-item > a,
+#main-menu ul li.current_page_item > a,
+#main-menu ul li.current-menu-parent > a,
+#main-menu ul li.current_page_ancestor > a,
+#main-menu ul li.current-menu-ancestor > a {
+	color:#5fcb91;
+}
+li.menu-item-has-children:after {
+  color: #181515;
+  content: ' ▾';
+  position: absolute;
+  top: 14px;
+  right: 7px;
+}
+#main-menu ul li a{
+  margin-right: 40px;
+}
+#main-menu ul.children ,
+#main-menu ul.sub-menu {
+	opacity:0;
+	position: absolute;
+	top: 45px;
+	left: -9999em;
+	background:#fff;
+	z-index:10001;
+	width:213px;
+	padding-left:0;
+	-webkit-transition: opacity 0.3s ease 0s;
+	-moz-transition: opacity 0.3s ease 0s;
+	-o-transition: opacity 0.3s ease 0s;
+	transition: opacity 0.3s ease 0s;
+}
+#main-menu ul.children li ,
+#main-menu ul.sub-menu li {
+	position:relative;
+	margin:0;
+	line-height:1.2em;
+	text-transform:none;
+	width:213px;
+	min-height: inherit;
+	margin:0;
+}
+#main-menu li li:hover > ul,
+#main-menu li li:focus > ul,
+#main-menu li li.focus > ul {
+	top:0px;
+	left: -100%;
+}
+#main-menu ul.children li a ,
+#main-menu ul.sub-menu li a {
+	text-decoration:none;
+	text-align:left;
+	display:block;
+	padding:20px 15px;
+	margin:0;
+	border:none;
+	line-height:inherit;
+	color: #0d0d0d;
+}
+#main-menu ul.children li a:hover,
+#main-menu ul.sub-menu li a:hover{
+	background: #5fcb91;
+	color: #fff;
+}
+#main-menu ul.children li ul:before,
+#main-menu ul.sub-menu li ul:before,
+.menu-toggle,
+.dropdown-toggle,
+button.close-menu {
+	display:none;
+}
+#main-menu li:hover > ul,
+#main-menu li:focus > ul,
+#main-menu li.focus > ul {
+	opacity:1;
+	left: 0;
+}
+
+/* ===============================================
+   POST BOX
+   ============================================= */
+
+.post-box{
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.post-thumbnail {
+  line-height: 0;
+}
+h3.post-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.post-content p{
+	color: #898d94;
+}
+.post-content{
+  word-wrap: break-word;
+}
+.post-meta i{
+	color: #5fcb91;
+}
+.post-meta span {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  color: #62646c;
+}
+pre {
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #0d0d0d;
+	white-space: break-spaces;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+.post-content img,
+.post-thumbnail img,
+.post-content iframe,
+.post-content object,
+.post-content embed {
+	max-width: 100%;
+}
+.post-content img,
+.post-thumbnail img {
+	max-height:100%;
+	height:auto;
+}
+.post-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#content,footer {
+  float: left;
+  width: 100%;
+}
+
+/* ===============================================
+   Slider
+   ============================================= */
+
+.blog_box p {
+  color: #000;
+  font-size: 16px;
+}
+.blog_inner_box img{
+  opacity: 0.6;
+  height: 700px;
+  object-fit: cover;
+}
+.blog_inner_box{
+  position: relative;
+}
+.blog_box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 60%;
+  left: 10%;
+}
+.blog_box h3 {
+  font-size: 45px;
+  color: #0d0d0d;
+  font-weight: 500;
+}
+.blog_inner_box h6 {
+  color: #718d91;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+  background: #ffffff;
+  padding: 12px;
+}
+p.slider-button a {
+  background: #0d0d0d;
+  padding: 12px 25px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+}
+p.slider-button a:hover{
+	background: #5fcb91;
+}
+.slider .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+.slider button.owl-prev,.slider button.owl-next {
+  color: #fff !important;
+  letter-spacing: 5px;
+	position: absolute;
+}
+.slider button.owl-prev i, .slider button.owl-next i {
+  padding: 15px;
+  border-radius: 50%;
+  color: #5fcb91;
+  background: #0d0d0d;
+}
+.slider button.owl-prev i:hover, .slider button.owl-next i:hover{
+	background: #5fcb91;
+	color: #fff;
+}
+.slider button.owl-prev{
+  left: 50px;
+}
+.slider button.owl-next{
+	right: 50px;
+}
+
+/* ===============================================
+   Hot Products
+  ============================================= */
+.tab-product{
+	position: relative;
+}
+#hot_products h5{
+	color: #5fcb91;
+	font-weight: 600;
+	font-size: 18px;
+}
+#hot_products h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+#hot_products img{
+	width: 100%;
+}
+#hot_products h4.product-text{
+	font-size: 18px;
+	font-weight: 400;
+}
+#hot_products h4 a:hover{
+	color: #5fcb91;
+}
+#hot_products .button2{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 30px 0;
+  text-align: center;
+  color: #ffff;
+  transition: all 0.2s;
+  text-decoration: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  background: #5fcb91;
+  font-weight: 400;
+  font-size: 14px;
+}
+#hot_products .button2,
+#hot_products .button2::after{
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#hot_products .button2::before,
+#hot_products .button2::after{
+	background: #5fcb91;
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border-radius: 6px;
+}
+#hot_products .button2:hover{
+  color: #fff;
+  background: #090a14;
+}
+#hot_products .button2::after{
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+  background: #090a14;
+}
+#hot_products .button2:hover:after{
+  width: 100%;
+}
+#hot_products .icon .button1 a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  color: #f5f5f5;
+  background: #5fcb91;
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 10px 10px;
+  z-index: 9999;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  margin: 0 auto;
+}
+#hot_products .tab-product:hover .button1 a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  bottom: 120px;
+  visibility: visible;
+  opacity: 1;
+  width: 100px;
+}
+#hot_products a.added_to_cart.wc-forward{
+	position: absolute;
+	bottom: 165px;
+	width: 100px;
+	padding: 10px;
+	background: #f5f5f5;
+	color: #5fcb91;
+	font-weight: 600;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	font-size: 14px;
+}
+#hot_products figure{
+	margin: 0;
+	padding: 0;
+	background: #0d0d0d;
+	overflow: hidden;
+}
+#hot_products figure:hover+span{
+	opacity: 1;
+}
+#hot_products figure img{
+	webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+#hot_products .product-image:hover figure img{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: 0.5;
+}
+
+/* ===============================================
+   Pagination
+   ============================================= */
+
+.pagination,
+.cosmetic-store-pagination {
+	margin:25px 0;
+}
+
+.pagination .nav-links a,
+.pagination .nav-links span.current,
+.cosmetic-store-pagination a span,
+.cosmetic-store-pagination span.current {
+	display:inline-block;
+	text-decoration: none;
+	padding:10px 12px;
+	font-size:14px;
+	line-height:21px;
+	color:#333;
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	background:#f3f4f7;
+	position:relative;
+	margin:0;
+	-webkit-transition: background-color .3s ease;
+	-moz-transition: background-color .3s ease;
+	-ms-transition: background-color .3s ease;
+	-o-transition: background-color .3s ease;
+	transition: background-color .3s ease;
+}
+
+.pagination .nav-links a:hover,
+.pagination .nav-links a:focus,
+.pagination .nav-links span.current,
+.cosmetic-store-pagination span.current,
+.cosmetic-store-pagination span.current:hover,
+.cosmetic-store-pagination span.current:focus,
+.cosmetic-store-pagination a span:hover,
+.cosmetic-store-pagination a span:focus {
+	background: #5fcb91;
+	color: #fff;
+}
+
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    background: #5fcb91;
+    color: #fff;
+}
+
+/* ===============================================
+   Feature Header Image
+   ============================================= */
+
+.feature-header{
+    position: relative;
+    background-color: #000;
+}
+.feature-header img {
+    width: 100%;
+    height: 300px !important;
+    object-fit: cover;
+    opacity: 0.9;
+}
+h1.post-title.feature-header-title{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    word-break: break-all;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-reply a:focus{
+  color: #fff;
+}
+.comment-respond input#submit:hover,
+.comment-reply a:hover{
+	background: #0d0d0d;
+	color: #fff;
+}
+.comment-form-url input,nav.navigation.pagination{
+  width: 100%;
+}
+.comment-respond input#submit {
+  background: #5fcb91;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-weight: 600;
+}
+.comment-content a {
+  word-wrap: break-word;
+}
+.bypostauthor {
+  display: block;
+}
+.comments-title {
+  font-size: 1.125rem;
+}
+.comment-body .pull-left {
+  padding-right: 0.625rem;
+}
+.comment-list {
+  padding-left: 0;
+}
+.comment-list .comment {
+  display: block;
+}
+.comment-list .pingback {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.563rem 0;
+}
+.comment-list .pingback a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.comment-content.card-block {
+  padding: 15px;
+}
+.comment-reply a {
+  background: #5fcb91;
+  padding: 5px 15px;
+  color: #fff;
+}
+.sidebar-area  .wp-block-latest-comments__comment-meta{
+	float: none;
+	background: transparent;
+}
+.sidebar-area .wp-block-latest-comments__comment-meta a{
+	color: #2f3235;
+}
+ol.wp-block-latest-comments{
+	padding: 0;
+}
+.sidebar-area .wp-block-latest-comments__comment li {
+    margin-bottom: 0;
+}
+
+/* ===============================================
+   SIDEBARS
+   =============================================== */
+
+.sidebar-area .textwidget img{
+  width: 100%;
+  height: auto;
+}
+.sidebar-area .sidebar-widget {
+	margin-bottom: 25px;
+}
+.sidebar-area a,
+.sidebar-area p,
+.sidebar-area li,
+.sidebar-area address,
+.sidebar-area dd,
+.sidebar-area blockquote,
+.sidebar-area td,
+.sidebar-area th,
+.sidebar-area .textwidget {
+	line-height:1.9em;
+	font-weight: normal;
+}
+.sidebar-area ul,#calendar_wrap,.sidebar-area .textwidget,.tagcloud {
+  list-style: none;
+  margin: 0;
+  padding: 0 0px;
+}
+.sidebar-area li a,
+.sidebar-area li {
+  font-size: 15px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.sidebar-area li {
+  padding-bottom: 5px;
+}
+.sidebar-area h4.title, .sidebar-area h1.wp-block-heading,  
+.sidebar-area h2.wp-block-heading,  
+.sidebar-area h3.wp-block-heading,  
+.sidebar-area h4.wp-block-heading,  
+.sidebar-area h5.wp-block-heading,  
+.sidebar-area h6.wp-block-heading,
+.sidebar-area .wp-block-search__label {
+  padding: 20px 15px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #5fcb91;
+  border-left: solid 5px #0d0d0d;
+}
+
+.footer-area h4.title, .footer-area h1.wp-block-heading,  
+.footer-area h2.wp-block-heading,  
+.footer-area h3.wp-block-heading,  
+.footer-area h4.wp-block-heading,  
+.footer-area h5.wp-block-heading,  
+.footer-area h6.wp-block-heading,
+.footer-area .wp-block-search__label{
+	background: none !important;
+	border-left: none;
+}
+
+footer .wp-block-search__label, footer .sidebar-area h1.wp-block-heading, footer .sidebar-area h2.wp-block-heading, footer .sidebar-area h3.wp-block-heading, footer .sidebar-area h4.wp-block-heading, footer .sidebar-area h5.wp-block-heading, footer .sidebar-area h6.wp-block-heading{
+	background: none !important;
+	border-left: none !important; 
+}
+footer .sidebar-area form {
+	padding: 0px;
+}
+.sidebar-area .wp-block-search__button {
+  background: #5fcb91;
+}
+
+.sidebar-area .tagcloud a, p.wp-block-tag-cloud a {
+  font-size: 15px !important;
+  background: #5fcb91;
+  color: #fff;
+  padding: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  display: inline-block;
+  margin: 5px 0;
+  text-decoration: none;
+}
+.sidebar-area .tagcloud a:hover{
+	background: #0d0d0d;
+}
+.sidebar-area form {
+  padding: 15px 0px;
+}
+.sidebar-area select,
+.sidebar-area textarea, #comments textarea,
+.sidebar-area input[type="text"], #comments input[type="text"],
+.sidebar-area input[type="password"],
+.sidebar-area input[type="datetime"],
+.sidebar-area input[type="datetime-local"],
+.sidebar-area input[type="date"],
+.sidebar-area input[type="month"],
+.sidebar-area input[type="time"],
+.sidebar-area input[type="week"],
+.sidebar-area input[type="number"],
+.sidebar-area input[type="email"],
+.sidebar-area input[type="url"],
+.sidebar-area input[type="search"],
+.sidebar-area input[type="tel"],
+.sidebar-area input[type="color"],
+.sidebar-area .uneditable-input,
+#comments input[type="email"],
+#comments input[type="url"]{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	width:100%;
+	padding: 5px 2%;
+	border: solid 1px #0d0d0d;
+}
+#wp-calendar th,
+#wp-calendar
+#today,
+#wp-calendar
+#today a {
+	background:#f3f4f7;
+	color:#434343 !important;
+}
+#wp-calendar a:hover {
+	border:none;
+}
+#wp-calendar {
+	background: #fff;
+	width:100%;
+}
+#wp-calendar caption {
+	font-size: 14px;
+	text-transform:uppercase;
+	margin:0 0 10px 0;
+	text-align:left;
+}
+#wp-calendar th,
+#wp-calendar td {
+	text-align: center;
+	font-size: 14px;
+	color:#434343 !important;
+	padding:3px 6px;
+}
+#wp-calendar td a {
+	display:block;
+	text-align: center;
+	font-size: 14px;
+	color:#434343 !important;
+	text-decoration:underline
+}
+#wp-calendar td#prev a,
+#wp-calendar td#prev a{
+	text-decoration:none;
+	text-align:left;
+}
+#wp-calendar th{
+	font-weight:bold
+}
+tr:nth-child(2n+2) {
+	background-color: #f3f4f7;
+}
+#footer-widgets caption {
+  color: #fff;
+}
+#footer-widgets h4 {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.searchform label {
+	display: block;
+}
+.searchform input[type=text], .sidebar-area .wp-block-search__input{
+  width: calc(100% - 110px);
+  margin: 0;
+  padding: 12px;
+  float: left;
+  background-color: #f3f4f7;
+  border: none;
+}
+.searchform input[type=submit], .sidebar-area .wp-block-search__button{
+	background: #5fcb91;
+	border: none;
+	color: #fff;
+	font-size:14px;
+	font-weight: 600;
+	text-align:center;
+	position:relative;
+	float:left;
+	text-shadow:none;
+	padding:14px 0;
+	width:100px;
+	margin:0 auto;
+	cursor: pointer;
+	-webkit-transition: color .3s ease, background-color .3s ease;
+	-moz-transition: color .3s ease, background-color .3s ease;
+	-o-transition: color .3s ease, background-color .3s ease;
+	transition: color .3s ease, background-color .3s ease;
+}
+
+.searchform input[type=submit]:hover ,
+.searchform input[type=submit]:focus {
+	background-color:#5fcb91;
+	text-decoration:none
+}
+
+.searchform:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	background: #0d0d0d;
+}
+
+footer .sidebar-area {
+	background: none;
+	padding: 25px 0 0 0;
+}
+
+.wp-block-group__inner-container h2 {
+    color: #fff;
+}
+
+footer a,
+footer p,
+footer .sidebar-area li,
+footer .sidebar-area address,
+footer .sidebar-area dd,
+footer .sidebar-area blockquote,
+footer .sidebar-area td,
+footer .sidebar-area th,
+footer .sidebar-area .title,
+footer .sidebar-area .textwidget {
+	color: #fff;
+}
+
+.footer-area ul {
+  padding: 0;
+}
+
+.footer-area h4.title {
+  padding: 0;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: none;
+  background: transparent;
+  border: none;
+}
+
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+img.alignleft,
+img.alignright,
+img.aligncenter,
+.attachment img {
+	max-width:100%;
+	height:auto;
+}
+.alignleft,
+img.alignleft {
+	display:inline;
+	float:left;
+	margin-right:24px;
+	margin-top:4px;
+}
+.alignright,
+img.alignright {
+	display:inline;
+	float:right;
+	margin-left:24px;
+	margin-top:4px;
+}
+div.aligncenter,
+img.aligncenter {
+	display: block;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	float:none;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom:12px;
+}
+
+.wp-caption {
+	background:#f1f1f1;
+	line-height:18px;
+	margin-bottom:25px;
+	max-width:100% !important;
+	padding:4px;
+	text-align:center;
+}
+
+.wp-caption img {
+	margin:5px 5px 0;
+	width:96%;
+	height:100%
+}
+
+.wp-caption p.wp-caption-text {
+	color:#888;
+	font-size:12px;
+	margin:5px;
+}
+
+.copy-text a:hover{
+	color: #fff;
+}
+
+.scroll-up {
+    position: fixed;
+    bottom: 12px;
+    right: 30px;
+    z-index: 999;
+}
+.scroll-up a {
+	background: #5fcb91;
+	color:#000;
+}
+.scroll-up a:hover{
+	background: #0d0d0d;
+	color:#fff;
+}
+.scroll-up a {
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    line-height: 2;
+    border-radius: 3px;
+    font-size: 1.25rem;
+    color: #fff;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+.scroll-up span {
+	  top: 7px;
+	  position: absolute;
+	  left: 7px;
+	  font-size: 25px;
+	  font-weight: 600;
+}
+
+/*===============================================
+   PRELOADER
+=============================================== */
+
+.cssloader {
+  padding-top: calc(45vh - 25px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #212121;
+  z-index: 99999;
+}
+
+.sh1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 50px 0 0;
+  border-color: #354952 transparent #ffffff transparent;
+  margin: 0 auto;
+  animation: shk1 1s ease-in-out infinite normal;
+}
+
+.sh2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 50px 50px;
+  border-color: transparent  transparent #5fcb91 transparent ;
+  margin: -50px auto 0;
+  animation: shk2 1s ease-in-out infinite alternate;
+}
+
+/** animation starts here **/
+@keyframes shk1 {
+  0% {
+    transform: rotate(-360deg);
+  }
+
+  100% {
+  }
+}
+
+@keyframes shk2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+  }
+}
+.lt {
+  color: #fff;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+/* ===============================================
+   sticky header
+   =============================================== */
+
+   .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+}
+   .admin-bar .sticky-header.fixed-header {
+    margin-top: 32px;
+}
+
+
+/* ===============================================
+   STICKY POST
+   =============================================== */
+
+.post-box.sticky {
+  background: #eee;
+  border: none;
+  box-shadow: 2px 2px 10px 2px #ccc;
+}
+
+
+.sticky {
+}
+
+.gallery-caption {
+}
+
+.bypostauthor {
+}

@@ -1,0 +1,168 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .bootstrap-wrapper select option{ color: #0081ff; }
+
+ .bootstrap-wrapper select option:disabled{ color: #cccccc; }
+ 
+ .select2-container--default .select2-selection--multiple .select2-selection__choice{
+     background-color: #ee6443 !important;
+     border: 1px solid #ee6443 !important;
+     padding: 10px 15px !important;
+     color: #fff !important;
+     font-weight:bold !important;
+ }
+ 
+ .select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+  color: #fff !important;
+  font-weight:bold !important;
+ }
+ 
+ 
+ .pisol-aafsw-td-name{
+     width:30%;
+ }
+ 
+ .bootstrap-wrapper select option:disabled{
+     background-color:#fff;
+ }
+ 
+ .bootstrap-wrapper a.additional-charges-tab.pi-active-tab, .bootstrap-wrapper a.additional-charges-tab.pi-active-tab:focus{
+     background-color:#000 !important;
+ }
+ 
+ .additional-charges-tab.pi-tab-error{
+     background-color:#f00 !important;
+ }
+ 
+ .additional-charges-tab-content{
+     display:none;
+ }
+ 
+ .additional-charges-tab-content.pi-active-tab{
+     display:block;
+ }
+ 
+ .pi-error{
+     border:1px solid #f00 !important;
+ }
+ 
+ .pi-min-col, .pi-max-col{
+     max-width:100px;
+     width:100px;
+ }
+ 
+ .pi-fee-col{
+     max-width:200px;
+     width:200px;
+ }
+ 
+ #pisol-dpmw-notices{
+     background:#fff;
+ }
+ 
+ #pisol-dpmw-notices .pi-dpmw-notice{
+     padding:10px;
+     margin:0px !important;
+     font-weight:bold;
+ }
+ 
+ 
+ #pisol-dpmw-notices .pi-dpmw-notice.success{
+     background:#4caf50;
+     color:#FFF;
+ }
+ 
+ #pisol-dpmw-notices .pi-dpmw-notice.error{
+     background:#f00;
+     color:#FFF;
+     border-bottom:1px solid #fff;
+ }
+ 
+ #pisol-dpmw-new-method.pi-blocked:after{
+     content:"Saving...";
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width:100%;
+     height:100%;
+     top:0px;
+     position: absolute;
+     background-color: rgba(255,255,255,0.6);
+     font-size:18px;
+     font-weight:bold;
+ }
+ 
+ .pi-close-notification{
+     position: absolute;
+     right:30px;
+     cursor:pointer;
+ }
+ 
+ .jc-bs3-container.container{
+     width:400px;
+     margin-left:auto;
+     margin-right:auto;
+ }
+ 
+ .jc-bs3-container.container .pi-close-notification{
+     display: none;
+ }
+ 
+ #pisol-dpmw-disable-rules-list-view{
+     position: relative;
+ }
+ 
+ #pisol-dpmw-disable-rules-list-view table td{
+     vertical-align: middle;
+ }
+ 
+ .blocktable:after{
+     content:'Processing.....';
+     width:100%;
+     height:100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top:0;
+     left:0;
+     background-color: rgba(255,255,255,0.6);
+     font-size:18px;
+     font-weight:bold;
+ }
+ 
+ /**
+ * Row blocking when field is loading
+ */
+ .pi-block-condition-row{
+     position: relative;
+ }
+ 
+ .pi-block-condition-row:after{
+     content:"Loading....";
+     color:#000;
+     display: flex;
+     font-weight:bold;
+     justify-content: center;
+     align-items: center;
+     top:0px;
+     left:0px;
+     position: absolute;
+     width:100%;
+     height:100%;
+     background:rgba(236, 74, 52, 0.2);
+ }
+ 
+ 
+ #pi-selection-columns{
+     display:flex;
+     flex-direction: column;
+ }

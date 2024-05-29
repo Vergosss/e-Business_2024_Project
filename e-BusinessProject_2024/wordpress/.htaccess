@@ -1,0 +1,19 @@
+
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress
+# Begin AIOWPSEC Firewall
+	<IfModule mod_php5.c>
+		php_value auto_prepend_file 'C:/xampp/htdocs/wordpress/aios-bootstrap.php'
+	</IfModule>
+	<IfModule mod_php7.c>
+		php_value auto_prepend_file 'C:/xampp/htdocs/wordpress/aios-bootstrap.php'
+	</IfModule>
+	<IfModule mod_php.c>
+		php_value auto_prepend_file 'C:/xampp/htdocs/wordpress/aios-bootstrap.php'
+	</IfModule>
+# End AIOWPSEC Firewall
